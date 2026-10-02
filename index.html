@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alejandro Jaramillo · Reto Docker</title>
+  <style>
+    :root { --bg: #0f172a; --card: #1e293b; --accent: #22c55e; --text: #f1f5f9; --muted: #94a3b8; }
+    * { box-sizing: border-box; margin: 0; }
+    body { min-height: 100vh; display: grid; place-items: center; padding: 16px;
+           background: radial-gradient(circle at top, #1e3a8a 0%, var(--bg) 60%);
+           font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--text); }
+    main { background: var(--card); border: 1px solid #334155; border-radius: 20px;
+           padding: 48px 40px; max-width: 720px; text-align: center; box-shadow: 0 20px 60px rgba(0,0,0,.45); }
+    .badge { display: inline-block; font-size: 14px; letter-spacing: .08em; text-transform: uppercase;
+             color: var(--accent); border: 1px solid var(--accent); border-radius: 999px; padding: 6px 14px; margin-bottom: 24px; }
+    h1 { font-size: clamp(28px, 5vw, 44px); line-height: 1.2; margin-bottom: 16px; }
+    h1 span { color: var(--accent); }
+    p { color: var(--muted); font-size: 18px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="badge">🐳 Servicio Docker activo</div>
+    <h1>Reto completado exitosamente por el estudiante <span>Alejandro Jaramillo</span></h1>
+    <p>Servido desde un contenedor Nginx · Docker Compose</p>
+  </main>
+</body>
+</html>

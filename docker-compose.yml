@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: reto-docker-alejandro:latest
+    container_name: reto-docker-alejandro
+    ports:
+      - "8080:80"
+    restart: unless-stopped
